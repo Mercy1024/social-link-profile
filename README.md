@@ -21,7 +21,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 Users should be able to:
 
 - See hover and focus states for all interactive elements on the page
-
 ### Screenshot
 
 ![](/assets/images/iPhone-13-PRO-127.0.0.1.png)
@@ -30,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:(https://your-solution-url.com)
-- Live Site URL:(https://your-live-site-url.com)
+- Solution URL:(https://www.frontendmentor.io/solutions/social-link-profile-VNdUA8tiHA)
+- Live Site URL:(https://social-link-profile-kohl.vercel.app/)
 
 ## My process
 
