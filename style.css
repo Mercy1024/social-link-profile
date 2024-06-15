@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Inter");
+
+/* || VARIABLES */
+
+*:root {
+  /* COLOR */
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --DarkGrey: hsl(0, 0%, 12%);
+  --OffBlack: hsl(0, 0%, 8%);
+  --Green: hsl(75, 94%, 57%);
+
+  /* FONTS */
+  --FF: "Inter";
+  --FS: 14px;
+  --FW1: 400;
+  --FW2: 600;
+  --FW3: 700;
+}
+
+/* RESET */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: black;
+  padding: 2rem;
+  font-family: var(--FF);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--OffBlack);
+  padding: 2rem;
+  width: 100%;
+  border-radius: 20px;
+  max-width: 375px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  color: var(--White);
+}
+
+.profileDetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 2rem;
+}
+
+.imgCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.imgCont img {
+  width: 100%;
+  border-radius: 100%;
+  max-width: 100px;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  gap: 0.7rem;
+}
+
+.profile-info h1 {
+  font-weight: var(--FW3);
+}
+
+.profile-info .location {
+  color: var(--Green);
+  font-weight: var(--FW2);
+}
+.profile-info .about {
+  font-size: var(--FS);
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: var(--FW1);
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  gap: 1rem;
+}
+
+.social-links a {
+  width: 100%;
+  padding: 0.8rem 1.3rem 0.8rem 1.3rem;
+  background-color: var(--DarkGrey);
+  color: var(--White);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 7px;
+  font-weight: var(--FW2);
+}
+
+.social-links a:hover {
+  background-color: var(--Green);
+  color: black;
+  transition: 0.2s;
+}
